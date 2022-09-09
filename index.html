@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--========Icon========-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!--========CSS========-->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Colors</title>
+</head>
+
+<body id="bgColor">
+
+    <!--========BG Color========-->
+    <section>
+        <div class="conteudo">
+            <div class="textBox">
+                <h2>Troque a<br> <span>cor</span></h2>
+                <p>Clique nas imagens abaixo para trocar a cor de fundo e a imagem.</p>
+                <a href="#">Botão</a>
+            </div>
+            <div class="imgBox">
+                <img class="pepsi" src="img/sun.png">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="img/sun.png" onclick="imgSlider('img/sun.png'); mudarBgColor('#fe7d0477')"></li>
+            <li><img src="img/moon.png" onclick="imgSlider('img/moon.png'); mudarBgColor('#000')"></li>
+        </ul>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
